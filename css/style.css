@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.text{
+    padding: 20px;
+    background: #140510cc;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.text span{
+    color: yellow;
+}
+
+.container .box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.box div{
+    background: #0072ffcc;
+    height: 130px;
+    transition: 0.2s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    
+}
+
+.box div:hover{
+    background-color: black;
+}
